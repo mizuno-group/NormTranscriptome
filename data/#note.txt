@@ -1,0 +1,23 @@
+- cmap_instances_02_processed.txt
+
+    - a preprocessed batch information derived from CMap database, w/o company information etc.
+
+- batch_HG-U133A_selected.txt, batch_HT-HG-U133A_EA_selected.txt
+
+    - further processed batch information mainly employed in this work
+
+    - sample size is greater than 30 in each batch
+
+    - replicates is greater than 2 in each compound
+
+    - filtered with the below data file
+
+- HTHGU133A_selected.pkl, HTHGU133AEA_selected.pkl
+
+    - preprocessed gene expression data derived from CMap database.
+
+    - CEL files were obtained from CMap database and procssed by ReadAffy program in R
+
+    - After removing probes with only NANs, probes were converted into genes using median
+
+    - Then, data was filtered with the above batch file

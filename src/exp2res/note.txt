@@ -1,0 +1,11 @@
+batch_handler: Batch classの扱い. batchの追加とか確認とか. seriesもここ  
+
+id_handler: ID classの扱い. biomartとのやりとり. softもここ  
+
+data_handler: Data classの扱い. といいつつあんまり用途がないかも  
+
+processor: 計算用各種module, 具体的にdataを与えてそれに沿ってprocessingする
+
+_util: 補助用各種module
+
+prohand: Batch, ID, Dataを統合してprofile dataのprocessingを行う  
